@@ -1,0 +1,7 @@
+1. Simulator → Kafka (storage)
+2. Kafka → Flink (analysis)
+3. Flink → Kafka (alert)
+4. Kafka → Spring Listener (trigger)
+5. Spring → Groq AI (decision)
+6. Spring → WebSockets (broadcast)
+7. WebSockets → React (visuals)
