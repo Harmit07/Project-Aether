@@ -5,5 +5,4 @@ scrape_configs:
   - job_name: 'aether-spring-boot'
     metrics_path: '/actuator/prometheus'
     static_configs:
-      # 👇 Special DNS name that routes from Docker container -> Your Mac
       - targets: ['host.docker.internal:8080']
